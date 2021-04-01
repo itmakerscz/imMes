@@ -1,0 +1,150 @@
+/*
+  ucss html old new
+*/
+
+/*<a>	Defines a hyperlink*/
+$a: a;
+/*<abbr>	Defines an abbreviation or an acronym*/
+$abbr: abbr;
+/*<address>	Defines contact information for the author/owner of a document*/
+$address: address;
+/*<area>	Defines an area inside an image-map*/
+$area: area;
+/*<b>	Defines bold text*/
+$b: b;
+/*<base>	Specifies the base URL/target for all relative URLs in a document*/
+$base: base;
+/*<bdo>	Overrides the current text direction*/
+$bdo: bdo;
+/*<blockquote>	Defines a section that is quoted from another source*/
+$blockquote: blockquote;
+/*<body>	Defines the document's body*/
+$body: body;
+/*<br>	Defines a single line break*/
+$br: br;
+/*<button>	Defines a clickable button*/
+$button: button;
+/*<caption>	Defines a table caption*/
+$caption: caption;
+/*<cite>	Defines the title of a work*/
+$cite: cite;
+/*<code>	Defines a piece of computer code*/
+$code: code;
+/*<col>	Specifies column properties for each column within a <colgroup> element */
+$col: col;
+/*<colgroup>	Specifies a group of one or more columns in a table for formatting*/
+$colgroup: colgroup;
+/*<dd>	Defines a description/value of a term in a description list*/
+$dd: dd;
+/*<del>	Defines text that has been deleted from a document*/
+$del: del;
+/*<dfn>	Represents the defining instance of a term*/
+$dfn: dfn;
+/*<div>	Defines a section in a document*/
+$div: div;
+/*<dl>	Defines a description list*/
+$dl: dl;
+/*<dt>	Defines a term/name in a description list*/
+$dt: dt;
+/*<em>	Defines emphasized text */
+$em: em;
+/*<fieldset>	Groups related elements in a form*/
+$fieldset: fieldset;
+/*<form>	Defines an HTML form for user input*/
+$form: form;
+/*<h1> to <h6>	Defines HTML headings*/
+$h1: h1; $h2: h2; $h3: h3; $h4: h4; $h5: h5; $h6: h6;
+/*<head>	Defines information about the document*/
+$head: head;
+/*<hr>	Defines a thematic change in the content*/
+$hr: hr;
+/*<html>	Defines the root of an HTML document*/
+$html: html;
+/*<i>	Defines a part of text in an alternate voice or mood*/
+$i: i;
+/*<iframe>	Defines an inline frame*/
+$iframe: iframe;
+/*<img>	Defines an image*/
+$img: img;
+/*<input>	Defines an input control*/
+$input: input;
+/*<ins>	Defines a text that has been inserted into a document*/
+$ins: ins;
+/*<kbd>	Defines keyboard input*/
+$kbd: kbd;
+/*<label>	Defines a label for an <input> element*/
+$label: label;
+/*<legend>	Defines a caption for a <fieldset> element*/
+$legend: legend;
+/*<li>	Defines a list item*/
+$li: li;
+/*<link>	Defines the relationship between a document and an external resource (most used to link to style sheets)*/
+$link: link;
+/*<map>	Defines a client-side image-map*/
+$map: map;
+/*<meta>	Defines metadata about an HTML document*/
+$meta: meta;
+/*<noscript>	Defines an alternate content for users that do not support client-side scripts*/
+$noscript: noscript;
+/*<object>	Defines an embedded object*/
+$object: object;
+/*<ol>	Defines an ordered list*/
+$ol: ol;
+/*<optgroup>	Defines a group of related options in a drop-down list*/
+$optgroup: optgroup;
+/*<option>	Defines an option in a drop-down list*/
+$option: option;
+/*<p>	Defines a paragraph*/
+$p: p;
+/*<param>	Defines a parameter for an object*/
+$param: param;
+/*<pre>	Defines preformatted text*/
+$pre: pre;
+/*<q>	Defines a short quotation*/
+$q: q;
+/*<s>	Defines text that is no longer correct*/
+$s: s;
+/*<samp>	Defines sample output from a computer program*/
+$samp: samp;
+/*<script>	Defines a client-side script*/
+$script: script;
+/*<select>	Defines a drop-down list*/
+$select: select;
+/*<small>	Defines smaller text*/
+$small: small;
+/*<span>	Defines a section in a document*/
+$span: span;
+/*<strong>	Defines important text*/
+$strong: strong;
+/*<style>	Defines style information for a document*/
+$style: style;
+/*<sub>	Defines subscripted text*/
+$sub: sub;
+/*<sup>	Defines superscripted text*/
+$sup: sup;
+/*<svg>	Defines a container for SVG graphics*/
+$svg: svg;
+/*<table>	Defines a table*/
+$table: table;
+/*<tbody>	Groups the body content in a table*/
+$tbody: tbody;
+/*<td>	Defines a cell in a table*/
+$td: td;
+/*<textarea>	Defines a multiline input control (text area)*/
+$textarea: textarea;
+/*<tfoot>	Groups the footer content in a table*/
+$tfoot: tfoot;
+/*<th>	Defines a header cell in a table*/
+$th: th;
+/*<thead>	Groups the header content in a table*/
+$head: thead;
+/*<title>	Defines a title for the document*/
+$title: title;
+/*<tr>	Defines a row in a table*/
+$tr: tr;
+/*<u>	Defines text that should be stylistically different from normal text*/
+$u: u;
+/*<ul>	Defines an unordered list*/
+$ul: ul;
+/*<var>	Defines a variable*/
+$var: var;

@@ -1,0 +1,270 @@
+/*
+  ucss css all
+*/
+/*Property	IE	Firefox	Chrome	Safari	Opera*/
+ 	 	 
+$align-content: align-content;	//11	28	21	9	12.1
+$align-items: align-items; //	11	20	21	9	12.1
+$align-self: align-self; //	11	20	21	9	12.1
+$all: all; //	27	37		24
+$animation: animation; //	10	16	43	9	30
+$animation-delay: animation-delay; //	10	16	43	9	30
+$animation-direction: animation-direction; //	10	16	43	9	30
+$animation-duration: animation-duration; //	10	16	43	9	30
+$animation-fill-mode: animation-fill-mode; //	10	16	43	4	15
+$animation-iteration-count: animation-iteration-count; // 10	16	43	9	30
+$animation-name: animation-name; //	10	16	43	9	30
+$animation-play-state: animation-play-state; //	10	16	43	9	30
+$animation-timing-function: animation-timing-function; //	10	16	43	9	30
+$backface-visibility: backface-visibility; //	10	16	36	9	23
+$background: background;	// 4	1	1	1	3.5
+$background-attachment: background-attachment; //	4	1	1	1	3.5
+$background-blend-mode: background-blend-mode; //		30	35	7.1	22
+$background-clip: background-clip; //	9	4	4	3	10.5
+$background-color: background-color; //	4	1	1	1	3.5
+$background-image: background-image;	// 4	1	1	1	3.5
+$background-origin: background-origin; //	9	4	4	3	10.5
+$background-position: background-position; //	4	1	1	1	3.5
+$background-repeat: background-repeat; //	4	1	1	1	3.5
+$background-size: background-size; //	9	4	4	4.1	10
+$border	4	1	1	1	3.5
+$border-bottom	4	1	1	1	3.5
+$border-bottom-color	4	1	1	1	3.5
+$border-bottom-left-radius	9	4	5	5	10.5
+$border-bottom-right-radius	9	4	5	5	10.5
+$border-bottom-style	5.5	1	1	1	9.2
+$border-bottom-width	4	1	1	1	3.5
+$border-collapse	5	1	1	1.2	4
+$border-color	4	1	1	1	3.5
+$border-image	11	15	16	6	15
+$border-image-outset	11	15	15	6	15
+$border-image-repeat	11	15	15	6	15
+$border-image-slice	11	15	15	6	15
+$border-image-source	11	15	15	6	15
+$border-image-width	11	13	15	6	15
+$border-left	4	1	1	1	3.5
+$border-left-color	4	1	1	1	3.5
+$border-left-style	5.5	1	1	1	9.2
+$border-left-width	4	1	1	1	3.5
+$border-radius	9	4	5	5	10.5
+$border-right	4	1	1	1	3.5
+$border-right-color	4	1	1	1	3.5
+$border-right-style	5.5	1	1	1	9.2
+$border-right-width	4	1	1	1	3.5
+$border-spacing	8	1	1	1	4
+$border-style	4	1	1	1	3.5
+$border-top	4	1	1	1	3.5
+$border-top-color	4	1	1	1	3.5
+$border-top-left-radius	9	4	5	5	10.5
+$border-top-right-radius	9	4	5	5	10.5
+$border-top-style	5.5	1	1	1	9.2
+$border-top-width	4	1	1	1	3.5
+$border-width	4	1	1	1	3.5
+$bottom	5	1	1	1	6
+$box-decoration-break		32	22	6.1	11.5
+$box-shadow	9	4	10	5.1	10.5
+$box-sizing	8	29	10	5.1	9.5
+$break-after	10				11.1
+$break-before	10				11.1
+$break-inside	10				11.1
+C	 	 	 	 	 
+$caption-side	8	1	1	1	4
+$caret-color		53	57		44
+@charset		1.5	2	4	9
+$clear	5	1	1	1	6
+$clip	8	1	1	1	7
+$color	3	1	1	1	3.5
+$column-count	10	52	50	9	37
+$column-fill	10	52	50	10	37
+$column-gap	10	52	50	9	37
+$column-rule	10	52	50	9	37
+$column-rule-color	10	52	50	9	37
+$column-rule-style	10	52	50	9	37
+$column-rule-width	10	52	50	9	37
+$column-span	10		50	9	37
+$column-width	10	52	50	9	37
+$columns	10	52	50	9	37
+$content	8	1	1	1	4
+$counter-increment	8	2	4	3.1	9.6
+$counter-reset	8	2	4	3.1	9.6
+$cursor	5.5	4	5	5	9.6
+D	 	 	 	 	 
+$direction	5.5	1	2	1.3	9.2
+$display	8	3	4	3.1	7
+E	 	 	 	 	 
+$empty-cells	8	1	1	1.2	4
+F	 	 	 	 	 
+$filter	13	35	53	9.1	40
+$flex	11	28	29	9	17
+$flex-basis	11	28	29	9	17
+$flex-direction	11	28	29	9	17
+$flex-flow	11	28	29	9	17
+$flex-grow	11	28	29	9	17
+$flex-shrink	11	28	29	9	17
+$flex-wrap	11	28	29	9	17
+$float	4	1	1	1	7
+$font	4	1	1	1	3.5
+@font-face	9	3.6	4	3	10
+$font-family	4	1	1	1	3.5
+$font-feature-settings	10	34	16		25
+@font-feature-values		34			
+$font-kerning	10	34	32	7	
+$font-language-override		34			
+$font-size	5.5	1	1	1	7
+$font-size-adjust		3			
+$font-stretch	9	9	48	11	35
+$font-style	4	1	1	1	7
+$font-synthesis		34		10	
+$font-variant	4	1	1	1	3.5
+$font-variant-alternates		34			
+$font-variant-caps		34	52		39
+$font-variant-east-asian		34			
+$font-variant-ligatures	10	34	34	7	19
+$font-variant-numeric		34	52		39
+$font-variant-position		34			
+$font-weight	4	1	2	1.3	3.5
+G	 	 	 	 	 
+$grid		52	57	10.1	44
+$grid-area		52	57	10.1	44
+$grid-auto-columns	10	52	57	10.1	44
+$grid-auto-flow		52	57		44
+$grid-auto-rows	10	52	57		44
+$grid-column	10	52	57	10.1	44
+$grid-column-end	10	52	57		44
+$grid-column-gap		52	57		44
+$grid-column-start	10	52	57		44
+$grid-gap		52	57		44
+$grid-row	10	52	57	10.1	44
+$grid-row-end	10	52	57		44
+$grid-row-gap	10	52	57		44
+$grid-row-start	10	52	57		44
+$grid-template		52	57		44
+$grid-template-areas		52	57	10.1	44
+$grid-template-columns	10	52	57		44
+$grid-template-rows	10	52	57	10.1	44
+H	 	 	 	 	 
+$hanging-punctuation					
+$height	4	1	1	1	7
+$hyphens	10	43	55	5.1	44
+I	 	 	 	 	 
+$image-rendering		3.6			11.6
+@import	5.5				
+$isolation		36	41	7.1	30
+J	 	 	 	 	 
+$justify-content	11	28	29	9	17
+K	 	 	 	 	 
+@keyframes	10	16	43	9	30
+L	 	 	 	 	 
+$left	5.5	1	1	1	5
+$letter-spacing	4	1	1	1	3.5
+$line-break	5.5		1		
+$line-height	4	1	1	1	7
+$list-style	4	1	1	1	7
+$list-style-image	4	1	1	1	7
+$list-style-position	4	1	1	1	3.5
+$list-style-type	4	1	1	1	3.5
+M	 	 	 	 	 
+$margin	6	1	1	1	3.5
+$margin-bottom	6	1	1	1	3.5
+$margin-left	6	1	1	1	3.5
+$margin-right	6	1	1	1	3.5
+$margin-top	6	1	1	1	3.5
+$mask		53	1	4	15
+$mask-type		35	24	7	15
+$max-height	7	1	1	2	7
+$max-width	7	1	1	2	7
+@media	9	3.5	21	4	9
+$min-height	7	1	1	2	4
+$min-width	7	1	1	2	4
+$mix-blend-mode		32	41	8	35
+N	 	 	 	 	 
+@namespace	9	1	1	1	8
+O	 	 	 	 	 
+$object-fit	16	36	31	7.1	19
+$object-position	16	36	31	7.1	19
+$opacity	9	2	4	3.1	9
+$order	11	28	29	9	17
+$orphans	8		25		9.2
+$outline	8	1.5	1	1.2	7
+$outline-color	8	1.5	1	1.2	7
+$outline-offset		3.5	4	3	10.5
+$outline-style	8	1.5	1	1.2	7
+$outline-width	8	1.5	1	1.2	7
+$overflow	4	1	1	1	7
+$overflow-wrap	9	3.5		3	9.5
+$overflow-x	9	3.5	4	3	9.5
+$overflow-y	9		4	3	9.5
+P	 	 	 	 	 
+$padding	4	1	1	1	3.5
+$padding-bottom	4	1	1	1	3.5
+$padding-left	4	1	1	1	3.5
+$padding-right	4	1	1	1	3.5
+$padding-top	4	1	1	1	3.5
+@page	8	19		5	6
+$page-break-after	4	1	1	1.2	7
+$page-break-before	4	1	1	1.2	7
+$page-break-inside	8	19	1	1.3	7
+$perspective	10	16	36	9	23
+$perspective-origin	10	16	36	9	23
+$place-content		60	59	11.1	51
+$pointer-events	11	3.6	2	4	9
+$position	7	1	1	1.2	4
+Q	 	 	 	 	 
+$quotes	8	1.5	11	5.1	4
+R	 	 	 	 	 
+$resize		5	4	4	15
+$right	5.5	1	1	1	5
+S	 	 	 	 	 
+$scroll-behavior		36	61		
+$shape-image-treshold				7	
+$shape-margin				7	
+@supports		22	28	9	12.1
+T	 	 	 	 	 
+$tab-size		4	21	6.1	15
+$table-layout	5	1	14	1	7
+$text-align	3	1	1	1	3.5
+$text-align-last	5.5	12	35		
+$text-combine-upright	11	48	48		34
+$text-decoration	3	1	1	1	3.5
+$text-decoration-color		36	57	7.1	44
+$text-decoration-line		36	57	7.1	44
+$text-decoration-style		36	57		44
+$text-emphasis		46	25	7.1	15
+$text-emphasis-color		46	25	7.1	15
+$text-emphasis-position		46	25	7.1	15
+$text-emphasis-style		46	25	7.1	15
+$text-indent	3	1	1	1	3.5
+$text-justify	5.5	55			
+$text-orientation		41	48		34
+$text-overflow	6	7	4	3.1	11
+$text-shadow	10	3.5	4	4	9.6
+$text-transform	4	1	1	1	7
+$text-underline-position			33		
+$top	5	1	1	1	6
+$touch-action	11	52	36		23
+$transform	10	16	36	9	23
+$transform-origin	10	16	36	9	23
+$transform-style	11	16	36	9	23
+$transition	10	16	26	6.1	12.1
+$transition-delay	10	16	26	6.1	12.1
+$transition-duration	10	16	26	6.1	12.1
+$transition-property	10	16	26	6.1	12.1
+$transition-timing-function	10	16	26	6.1	12.1
+U	 	 	 	 	 
+$unicode-bidi	5.5	1	2	1.3	9.2
+$user-select	10	2	54	3.1	41
+V	 	 	 	 	 
+$vertical-align	4	1	1	1	4
+@viewport	10		29		16
+$visibility	4	1	1	1	4
+W	 	 	 	 	 
+$white-space	8	3.5	1	3	9.5
+$widows	8		25		9.2
+$width	4	1	1	1	3.5
+$will-change		36	36	9.1	24
+$word-break	5.5	15	4	3.1	15
+$word-spacing: word-spacing; //	6	1	1	1	3.5
+$word-wrap: word-wrap; //	5.5	3.5	4	3.1	10.5
+$writing-mode: writing-mode; //	9	41	8	5.1	15
+ 	 	 
+$z-index: z-index; //	4	3	1	1	4

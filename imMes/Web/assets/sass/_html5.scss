@@ -1,0 +1,70 @@
+/*
+  ucss html5 tags
+*/
+
+/*<article>	Defines an article*/
+$article: article;
+/*<aside>	Defines content aside from the page content*/
+$aside: aside;
+/*<audio>	Defines sound content*/
+$audio: audio;
+/*<bdi>	Isolates a part of text that might be formatted in a different direction from other text outside it*/
+$bdi: bdi;
+/*<canvas>	Used to draw graphics, on the fly, via scripting (usually JavaScript)*/
+$canvas: canvas;
+/*<colgroup>	Specifies a group of one or more columns in a table for formatting*/
+$colgroup: colgroup;
+/*<data>	Links the given content with a machine-readable translation*/
+$data: data;
+/*<datalist>	Specifies a list of pre-defined options for input controls*/
+$datalist: datalist;
+/*<details>	Defines additional details that the user can view or hide*/
+$details: details;
+/*<dialog>	Defines a dialog box or window*/
+$dialog: dialog;
+/*<embed>	Defines a container for an external (non-HTML) application*/
+$embed: embed;
+/*<figcaption>	Defines a caption for a <figure> element*/
+$figcaption: figcaption;
+/*<figure>	Specifies self-contained content*/
+$figure: figure;
+/*<footer>	Defines a footer for a document or section*/
+$footer: footer;
+/*<header>	Defines a header for a document or section*/
+$header: header;
+/*<main>	Specifies the main content of a document*/
+$main: main;
+/*<mark>	Defines marked/highlighted text*/
+$mark: mark;
+/*<meter>	Defines a scalar measurement within a known range (a gauge)*/
+$meter: meter;
+/*<nav>	Defines navigation links*/
+$nav: nav;
+/*<output>	Defines the result of a calculation*/
+$output: output;
+/*<picture>	Defines a container for multiple image resources*/
+$picture: picture;
+/*<progress>	Represents the progress of a task*/
+$progress: progress;
+/*<rp>	Defines what to show in browsers that do not support ruby annotations*/
+$rp: rp;
+/*<rt>	Defines an explanation/pronunciation of characters (for East Asian typography)*/
+$rt: rt;
+/*<ruby>	Defines a ruby annotation (for East Asian typography)*/
+$ruby: ruby;
+/*<section>	Defines a section in a document*/
+$section: section;
+/*<source>	Defines multiple media resources for media elements (<video> and <audio>)*/
+$source: source;
+/*<summary>	Defines a visible heading for a <details> element*/
+$summary: summary;
+/*<template>	Defines a template*/
+$template: template;
+/*<time>	Defines a date/time*/
+$time: time;
+/*<track>	Defines text tracks for media elements (<video> and <audio>)*/
+$track: track;
+/*<video>	Defines a video or movie*/
+$video: video;
+/*<wbr>	Defines a possible line-break*/
+$wbr: wbr;

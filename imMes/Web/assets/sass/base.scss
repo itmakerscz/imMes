@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20.8.2018, 5:48:31
+    Author     : ique
+*/
+
+@import 'reset';
+@import 'variables';
+@import 'html-default';
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+.box { @include transform(rotate(30deg)); }
+
+// This CSS won't print because %equal-heights is never extended.
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// This CSS will print because %message-shared is extended.
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+
+.warning {
+  @extend %message-shared;
+  border-color: yellow;
+}
+
+%im-col {
+  width: 1em; height: 1em;
+}
+
+
+@mixin col($width, $height){
+  width: $width; height: $height;
+}
+.col {@include col(1em, 1em)}
+
+.zkouska{
+  @extend %h1;
+  @include col(1em, 1em);
+}

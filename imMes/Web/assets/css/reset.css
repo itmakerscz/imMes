@@ -1,0 +1,499 @@
+/* def standart */
+
+a:link, a:visited {
+    color: #000;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active {
+    color: #000;
+}
+
+address {
+    display: block;
+    font-style: italic;
+}
+
+area {
+    display: none;
+}
+
+article {
+    display: block;
+}
+
+aside {
+    display: block;
+}
+
+b {
+    font-weight: bold;
+}
+
+bdo {
+    unicode-bidi: bidi-override;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+body:focus {
+    outline: none;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+}
+
+cite {
+    font-style: italic;
+}
+
+code {
+    font-family: monospace;
+}
+
+col {
+    display: table-column;
+}
+colgroup {
+    display: table-column-group;
+}
+
+datalist {
+    display: none;
+}
+
+dd {
+    display: block;
+    margin-left: 40px;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+details {
+    display: block;
+}
+
+dfn {
+    font-style: italic;
+}
+
+div {
+    display: block;
+}
+
+dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+dt {
+    display: block;
+}
+
+em {
+    font-style: italic;
+}
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+figcaption {
+    display: block;
+}
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+footer {
+    display: block;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h6 {
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+head {
+    display: none;
+}
+
+header {
+    display: block;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+html {
+    display: block;
+}
+
+html:focus {
+    outline: none;
+}
+
+i {
+    font-style: italic;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+ins {
+    text-decoration: underline;
+}
+
+kbd {
+    font-family: monospace;
+}
+
+label {
+    cursor: default;
+}
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
+
+li {
+    display: list-item;
+}
+
+link {
+    display: none;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+nav {
+    display: block;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+output {
+    display: inline;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
+
+q {
+    display: inline;
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+samp {
+    font-family: monospace;
+}
+
+section {
+    display: block;
+}
+
+small {
+    font-size: smaller;
+}
+
+strong {
+    font-weight: bold;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+summary {
+    display: block;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+u {
+    text-decoration: underline;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+var {
+    font-style: italic;
+}
+
+
+/* def reset ie */
+[dir=rtl] dd {margin: 0 30pt 0 0;}
+[dir=rtl] menu {margin: 14pt 30pt 14pt 0;}
+[dir=rtl] ol {margin: 14pt 30pt 14pt 0;}
+[dir=rtl] ul {margin: 14pt 30pt 14pt 0;}
+
+address {display: block; font-style: italic;}
+
+b {font-weight: bold;}
+bdo {direction: rtl; unicode-bidi: bidi-override;}
+blockquote {display: block; margin: 14pt 30pt;}
+body {display: block; margin: 15px 10px; zoom: 1;}
+button {background-color: #D4D0C8; border-style: outset; border-width: 2px;
+    font-family: sans-serif; font-size: 10pt; overflow: hidden; text-align: center; zoom: 1;
+}
+caption {display: block; padding: 1px 3px 5px; text-align: center; zoom: 1;}
+cite {font-style: italic;}
+code {font-family: monospace; font-size: 10pt;}
+col {border-color: #D4D0C8; display: block;}
+colgroup {border-color: #D4D0C8; display: block;}
+dd {display: block; margin: 0 0 0 30pt;}
+del {text-decoration: line-through;}
+dfn {font-style: italic;}
+div {display: block;}
+dl {display: block; margin: 14pt 0;}
+dt {display: block;}
+em {font-style: italic;}
+embed {zoom: 1;}
+fieldset {border-style: groove; border-width: 2px; display: block; zoom: 1;}
+form {display: block; margin: 14pt 0;}
+h1 {display: block; font-size: 24pt; font-weight: bold; margin: 14pt 0;}
+h2 {display: block; font-size: 18pt; font-weight: bold; margin: 14pt 0;}
+h3 {display: block; font-size: 13.55pt; font-weight: bold; margin: 14pt 0;}
+h4 {display: block; font-weight: bold; margin: 14pt 0;}
+h5 {display: block; font-size: 10pt; font-weight: bold; margin: 14pt 0;}
+h6 {display: block; font-size: 7.55pt; font-weight: bold; margin: 14pt 0;}
+hr {text-align: center; zoom: 1;}
+html {overflow-x: auto; overflow-y: scroll; zoom: 1;}
+i {font-style: italic;}
+iframe {background-color: #FFF; height: 150px; width: 300px; zoom: 1;}
+img {zoom: 1;}
+input {background-color: #FFF; border-style: inset; border-width: 2px; font-family: sans-serif; font-size: 10pt; overflow: hidden; padding: 1px; zoom: 1;}
+ins {text-decoration: underline;}
+kbd {font-family: monospace; font-size: 10pt;}
+legend {zoom: 1;}
+li {display: block;}
+menu {display: block; list-style-image: none; list-style-position: outside; list-style-type: disc; margin: 14pt 0 14pt 30pt;}
+object {zoom: 1;}
+ol {display: block; list-style-image: none; list-style-position: outside; list-style-type: decimal; margin: 14pt 0 14pt 30pt;}
+optgroup {font-family: sans-serif; font-size: 10pt; font-style: italic; font-weight: bold;}
+option {font-family: sans-serif; font-size: 10pt; font-style: italic; font-weight: bold;}
+p {display: block; margin: 14pt 0;}
+pre {display: block; font-family: monospace; font-size: 10pt; white-space: pre;}
+rp {font-size: 6pt;}
+rt {font-size: 6pt;}
+samp {font-family: monospace; font-size: 10pt;}
+select {border-color: #FFF; border-style: inset; border-width: 2px; font-family: sans-serif; font-size: 10pt; zoom: 1;}
+small {font-size: 10pt;}
+strong {font-weight: bold;}
+sub {font-size: 10pt;}
+sup {font-size: 10pt;}
+table {border-color: #D4D0C8; display: block; zoom: 1;}
+tbody {border-color: #D4D0C8; display: block;}
+td {border-color: #D4D0C8; display: block; padding: 1px; zoom: 1;}
+textarea {background-color: #FFF; border-style: inset; border-width: 2px; font-family: monospace; font-size: 10pt;
+    overflow-x: hidden; overflow-y: scroll; padding: 1px; white-space: pre; zoom: 1;}
+
+tfoot {border-color: #D4D0C8; display: block;}
+th {border-color: #D4D0C8; display: block; font-weight: bold; padding: 1px; text-align: center; zoom: 1;}
+thead {border-color: #D4D0C8; display: block;}
+tr {border-color: #D4D0C8; display: block; zoom: 1;}
+ul {display: block; list-style-image: none; list-style-position: outside; list-style-type: disc; margin: 14pt 0 14pt 30pt;}
+var {font-style: italic;}
+
+/* def reset gecko */
+
+
+/* def reset all */
+
+a {color: #222; text-decoration: none;}
+a:visited {color: #222;}
+
+html:focus {outline: none;}
+body {margin: 0; padding: 0;}
+body:focus {outline: none;}

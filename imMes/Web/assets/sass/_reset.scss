@@ -1,0 +1,38 @@
+/*
+ ucss reset
+*/
+/* def basic */
+*{
+  margin: 0; padding: 0;
+}
+*:focus{
+  outline: none;
+}
+html {
+    background: #fefefe; font-family: 'Open Sans', Arial, sans-serif; 
+		font-weight: 300; color: #222; font-size: 1em; line-height: 2em; letter-spacing: normal;
+    margin: 0; padding: 0; min-width: 320px;
+}
+html:focus {outline: none;}
+
+body {margin: 0; padding: 0;}
+body:focus {outline: none;}
+
+a {color: #222; text-decoration: underline;}
+a:hover{text-decoration: none;}
+a:link, a:visited {color: #222; text-decoration: underline;}
+a:link:active, a:visited:active {color: #222;}
+
+
+* {box-sizing: border-box;}
+
+/* def template */
+ul, li{margin: 0; padding: 0; list-style: none;}
+h1, h2, h3, h4, h5, h6, p {margin: 0; padding: 0;}
+abbr{text-decoration: none;}
+.wrapper{width:90%; margin:0 auto;}
+.clearfix{*zoom:1;clear: both;}
+.left{float: left;}
+.right{float: right;}
+.hidden{visibility: hidden; display: none;}
+.padding{padding: 2em 0;}
