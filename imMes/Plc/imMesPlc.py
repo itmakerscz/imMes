@@ -1,7 +1,7 @@
 #
 # imMes
 #
-# Copyright (c) 2020 Aliaksandr Sazankou
+# Copyright (c) 2021 Aliaksandr Sazankou
 # itmakers.cz
 #
 # imMes is free software
@@ -15,7 +15,7 @@ from pymongo import MongoClient
 
 __author__ = "Aliaksandr Sazankou"
 __email__ = "sazankou.a@gmail.com"
-__copyright__ = "Copyright (c) 2020 Aliaksandr Sazankou"
+__copyright__ = "Copyright (c) 2021 Aliaksandr Sazankou"
 __license__ = "GPLv3 (or later)"
 
 global data_array
