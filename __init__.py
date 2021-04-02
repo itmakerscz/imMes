@@ -23,7 +23,7 @@ TCP_BUFFER = 9192
 
 
 try:
-	pyMesWeb.init('127.0.0.2')
+	imMesWeb.init('127.0.0.2')
 	print("Webapp is run...")
 except:
 	print("Webapp cannot run...")
@@ -32,7 +32,7 @@ except:
 
 
 try:
-	pyMesPlc.init(TCP_IP, TCP_PORT, TCP_BUFFER)
+	imMesPlc.init(TCP_IP, TCP_PORT, TCP_BUFFER)
 	print("Plc reader is run...")
 except:
 	print("Plc reader cannot run...")
